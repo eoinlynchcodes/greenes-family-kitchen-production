@@ -59,6 +59,17 @@ nav {
   justify-content: space-evenly;
 }
 
+.navSection{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.navSection a{
+  text-decoration: none;
+}
+
 .logo{
   width: 20%;
   height: auto;
