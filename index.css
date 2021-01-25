@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
 html {
   font-family: "Lato", sans-serif;
@@ -63,7 +64,6 @@ nav {
   height: auto;
 }
 
-
 .center-text{
     display: flex;
     justify-content: center;
@@ -78,6 +78,19 @@ img {
 
 .images{
   width: 50%;
+}
+
+.intro-text-section{
+  background-color: #9CB139;
+  padding: 2rem 0rem;
+}
+
+.intro-text{
+  width: 90%;
+  margin: 0 auto;
+  font-family: 'Dancing Script', cursive;
+  color: white;
+  text-align: center;
 }
 
 .sectionOne{
@@ -119,9 +132,18 @@ form{
 .divAroundForm{
   width: 90%;
   margin: 4rem auto;
-  padding: 5rem 2rem;
+  padding: 5rem 4rem;
   background-color: white;
-  border-radius: 12px;
+  border-radius: 6px;
+}
+
+.our-story{
+  width: 90%;
+  margin: 4rem auto;
+  background-color: black;
+  color: white;
+  padding: 5rem 5rem;
+  border-radius: 6px;
 }
 
 .send-button{
