@@ -225,7 +225,7 @@ img {
 
 .insideProductDiv{
   padding: 2rem 2rem;
-  
+  background-color: #9CB139;
 }
 
 .product-heading{
@@ -262,4 +262,17 @@ footer{
   display: flex;
   justify-content: center;
   padding: 1rem 1rem;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  .productDiv{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .productDiv img{
+    width: 100%;
+  }
 }
