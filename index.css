@@ -183,4 +183,12 @@ footer{
   .productDiv img{
     width: 100%;
   }
+
+  .navSection{
+    display: none;
+  }
+
+  .navSection a{
+    display: none;
+  }
 }
