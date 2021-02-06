@@ -168,8 +168,9 @@ footer{
   background-color: #333333;
   color: white;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   padding: 5rem 5rem;
+
 }
 
 
