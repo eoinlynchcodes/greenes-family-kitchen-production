@@ -114,18 +114,26 @@ img {
 }
 
 .productDiv{
-  background-color: white;
+  background-color: #9CB139;
+  color: white;
   width: 90%;
   margin: 4rem auto;
   border-radius: 6px;
   display: flex;
+  justify-content: center;
+  align-items: center;
   overflow: hidden;
+}
+
+.productDiv a{
+  color: white;
 }
 
 .insideProductDiv{
   padding: 2rem 2rem;
   background-color: #9CB139;
 }
+
 
 .product-heading{
   background-color: green;
@@ -155,11 +163,6 @@ form{
   color: white;
   padding: 5rem 5rem;
   border-radius: 6px;
-}
-
-.text-inside-story{
-  width: 80%;
-  margin: 0 auto;
 }
 
 .send-button{
