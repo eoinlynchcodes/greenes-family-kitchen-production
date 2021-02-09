@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="nav.css">
 </head>
 
 
@@ -54,7 +55,7 @@
         <div class="productDiv">
             <img class="images" src="/images/pancake.jpg" alt="An image of Greene's Family Kitchen's pancake product" />
             <div class="insideProductDiv">
-                <h3><u>Deliciously Fluffy Pancakes</u></h3>
+                <h3>Deliciously Fluffy Pancakes</h3>
                 <p>We combine fresh Irish sources ingredients with a strong emphasis on welfare and sustainability. The
                     flour is native Irish and comes from Kilkenny and the eggs come from our own farm in Westmeath. Our
                     hens are free range and give us award-winning quality eggs. So, from our kitchen to yours, enjoy!
@@ -73,7 +74,7 @@
             <img class="images" src="/images/zesty lemon pancake.jpg"
                 alt="An image of Greene's Family Kitchen's pancake product" />
             <div class="insideProductDiv">
-                <h3><u>Deliciously Zesty Lemon Pancakes</u></h3>
+                <h3>Deliciously Zesty Lemon Pancakes</h3>
                 <p>We combine fresh Irish sources ingredients with a strong emphasis on welfare and sustainability. The
                     flour is native Irish and comes from Kilkenny and the eggs come from our own farm in Westmeath. Our
                     hens are free range and give us award-winning quality eggs. So, from our kitchen to yours, enjoy!
@@ -90,7 +91,7 @@
         <div class="productDiv">
             <img class="images" src="/images/crepe.jpg" alt="An image of Greene's Family Kitchen's pancake product" />
             <div class="insideProductDiv">
-                <h3><u>Traditional Crepes</u></h3>
+                <h3>Traditional Crepes</h3>
                 <br />
                 <p>We combine fresh Irish coursed ingredients with a strong emphasis on welfare and sustainability. The
                     flour is native Irish and comes from Kilkenny. The eggs come from out own farm in Westmeath - <a
@@ -103,14 +104,13 @@
                     <li>Made with eggs from our own farm in Westmeath - <a
                             href="https://greenesfreerangeeggs.ie/">greenesfreerangeeggs.ie</a> </li>
                 </ul>
-                <p>Add Kenneth's signature here.</p>
             </div>
         </div>
 
     </section>
 
 
-    <section class="our-story">
+    <section id="story" class="our-story">
         <div class="text-inside-story">
             <h1>Our Story</h1>
             <p>
@@ -155,10 +155,8 @@
     </section>
 
 
-
-
     <div id="contact" class="divAroundForm">
-        <h2>Contact us here for questions about our products or for order queries:</h2>
+        <h2>Contact Form</h2>
         <br />
         <form action="https://formspree.io/f/xdopbebl" method="POST">
             <h4>Your Name:</h4>
@@ -178,6 +176,19 @@
         </form>
     </div>
 
+    <script> 
+        function gfgMenu() { 
+            const GFG = document.querySelector('.links'); 
+  
+            if (GFG.style.display === "none") { 
+                GFG.style.display = "block"; 
+            } 
+            else { 
+                GFG.style.display = "none"; 
+            } 
+        } 
+    </script> 
+
 
     <footer>
         <div>
@@ -191,8 +202,6 @@
             </p>
         </div>
     </footer>
-
 </body>
-
 
 </html>
