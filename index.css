@@ -42,7 +42,6 @@ a{
 
 nav {
   background-color: #FFFFFF;
-  border: 10px solid #593D27;
   color: #9CB139;
 }
 
@@ -104,13 +103,8 @@ img {
   text-align: center;
 }
 
-.sectionOne{
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 3rem 3rem;
-  background-color: white;
+.sectionOne img{
+  width: 100%;
 }
 
 .productDiv{
@@ -166,7 +160,8 @@ form{
 }
 
 .send-button{
-  background-color: green;
+  background-color: #9CB139;
+  border: 1px solid black;
   color: white;
   padding: 1rem 4rem;
   margin: 0 auto;
