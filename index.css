@@ -1,6 +1,6 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,700;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 html {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px; /* 16px * 62.5 = 10px = 1rem */
@@ -11,7 +11,7 @@ body{
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 2.5em;
 }
 
 h2 {
@@ -46,11 +46,6 @@ nav {
   color: #9CB139;
 }
 
-.sectionWithLogo{
-  display: flex;
-  align-items: center;
-}
-
 .navDiv{
   width: 95%;
   margin: 0 auto;
@@ -61,69 +56,106 @@ nav {
 
 .navSection{
   display: flex;
+  justify-content: flex-end;
   flex-direction: row;
   width: 100%;
-  justify-content: space-evenly;
 }
 
 .navSection a{
   text-decoration: none;
+  padding: 0rem 2rem;
+  color: #9CB139;
 }
 
 .logo{
   width: 20%;
-  height: auto;
+}
+
+.text-inside-story{
+  width: 50%;
+  margin: 0 auto;
+  color: white;
+  padding: 4rem 0rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading{
+  font-family: 'Dancing Script', cursive;
 }
 
 .center-text{
-    display: flex;
-    justify-content: center;
-    padding: 4rem;
-    background-color: black;
-    color: white;
+  display: flex;
+  justify-content: center;
+  padding: 4rem;
+  background-color: black;
+  color: white;
+}
+
+.text-layout{
+  text-align: center;
 }
 
 img {
-    display: flex;
+  display: flex;
 }
 
 .images{
-  width: 50%;
+  width: 100%;
 }
 
 .intro-text-section{
   background-color: #9CB139;
   padding: 2rem 0rem;
+  display: flex;
 }
 
-.intro-text{
-  width: 90%;
-  margin: 0 auto;
-  font-family: 'Dancing Script', cursive;
-  color: white;
-  text-align: center;
+.products-section{
+  background-color: white;
+  padding: 4rem 0rem;
 }
 
 .sectionOne img{
-  width: 100%;
+  width: 100%; 
 }
 
-.productSectionOne{
+.pancakes{
+  display: flex; 
+  max-width: 100%;
+  justify-content: space-evenly;
+}
+
+.pancake-card{
+  max-width: 30%;
   display: flex;
-  
+  flex-direction: column;
+  border: 2px solid #9CB139;
+  border-radius: 16px;
+  overflow: hidden;
 }
 
-.productDiv{
-  background-color: #9CB139;
-  color: white;
-  width: 90%;
-  margin: 4rem auto;
-  border-radius: 6px;
-  overflow: hidden;
+.pancake-card img{
+  max-width: 100%;
+  padding: 2rem 2rem;
+}
+
+.pancakes-text{
+  width: 70%;
+  margin: 0 auto;
+  padding: 4rem 0rem;
+}
+
+.bottom-product-section{
+  padding: 1rem;
 }
 
 .productDiv a{
   color: white;
+}
+
+.color{
+  padding: 1rem 2rem;
 }
 
 .insideProductDiv{
@@ -131,9 +163,8 @@ img {
   background-color: #9CB139;
 }
 
-
 .product-heading{
-  background-color: green;
+  background-color: #9CB139;
   color: white;
   padding: 1rem 1rem;
   width: 80%;
@@ -162,6 +193,30 @@ form{
   border-radius: 6px;
 }
 
+.our-values{
+  background-color: #9CB139;
+  margin: 0 auto;
+  padding: 2rem 0rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: 'Dancing Script', cursive;
+  color: white;
+}
+
+.value-items{
+  padding: 0rem 0rem;
+  margin: 0 auto;
+}
+
+.center-child{
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+
 .send-button{
   background-color: #9CB139;
   border: 1px solid black;
@@ -173,15 +228,28 @@ form{
   justify-content: center;
 }
 
-footer{
+.footer-div{
   background-color: #333333;
   color: white;
   display: flex;
   justify-content: space-evenly;
   padding: 5rem 5rem;
-
 }
 
+footer{
+  background-color: #333333;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+
+.logo-footer{
+  width: 20%;
+  display: flex;
+  margin: 0 auto;
+  
+}
 
 
 @media only screen and (max-width: 768px) {
