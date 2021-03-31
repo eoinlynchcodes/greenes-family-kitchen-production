@@ -242,7 +242,7 @@ form{
   color: white;
   display: flex;
   justify-content: space-evenly;
-  padding: 5rem 5rem;
+  padding: 2rem 2rem;
 }
 
 footer{
@@ -257,7 +257,11 @@ footer{
   width: 20%;
   display: flex;
   margin: 0 auto;
+}
 
+.footer-text{
+  margin: 2rem auto;
+  color: white;
 }
 
 
@@ -266,8 +270,6 @@ footer{
     display: flex;
     flex-direction: column;
   }
-
-  
 
   .productDiv img{
     width: 100%;
@@ -280,4 +282,29 @@ footer{
   .navSection a{
     display: none;
   }
+
+  .pancakes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pancake-card{
+    max-width: 80%;
+    margin: 2rem auto;
+  }
+
+  .our-values{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .value-items{
+    margin: 1rem auto;
+  }
+
+  .logo{
+    width: 40%;
+  }
+
 }
