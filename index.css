@@ -146,6 +146,15 @@ img {
   padding: 4rem 0rem;
 }
 
+.product-name{
+  margin: 1rem auto 2rem auto;
+
+}
+
+.color{
+  background-color: black;
+}
+
 .bottom-product-section{
   padding: 1rem;
 }
@@ -248,7 +257,7 @@ footer{
   width: 20%;
   display: flex;
   margin: 0 auto;
-  
+
 }
 
 
@@ -257,6 +266,8 @@ footer{
     display: flex;
     flex-direction: column;
   }
+
+  
 
   .productDiv img{
     width: 100%;
