@@ -120,6 +120,7 @@ img {
   width: 100%; 
 }
 
+
 .pancakes{
   display: flex; 
   max-width: 100%;
@@ -148,7 +149,6 @@ img {
 
 .product-name{
   margin: 1rem auto 2rem auto;
-
 }
 
 .color{
@@ -300,11 +300,7 @@ footer{
   }
 
   .value-items{
-    margin: 1rem auto;
-  }
-
-  .logo{
-    width: 40%;
+    margin: 2rem auto;
   }
 
 }
