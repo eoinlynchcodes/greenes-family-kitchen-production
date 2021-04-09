@@ -262,6 +262,18 @@ footer{
 .footer-text{
   margin: 2rem auto;
   color: white;
+  text-align: center;
+}
+
+.socialmediaicons{
+  display: flex;
+  justify-content: center;
+  padding: .5rem .5rem;
+  background-color: #9CB139;
+}
+
+.icon{
+  width: 10%;
 }
 
 
@@ -269,6 +281,14 @@ footer{
   .productDiv{
     display: flex;
     flex-direction: column;
+  }
+
+  .logo{
+    width: 40%;
+  }
+
+  .text-inside-story{
+    width: 80%;
   }
 
   .productDiv img{
@@ -301,6 +321,17 @@ footer{
 
   .value-items{
     margin: 2rem auto;
+  }
+
+  .socialmediaicons{
+    display: flex;
+    justify-content: center;
+    padding: .5rem .5rem;
+    background-color: #9CB139;
+  }
+
+  .logo-footer{
+    width: 50%;
   }
 
 }
